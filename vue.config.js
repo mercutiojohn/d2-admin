@@ -242,6 +242,18 @@ module.exports = {
         symbolId: 'd2-[name]'
       })
       .end()
+    // icons
+    const iconsRule = config.module.rule('icons')
+    iconsRule // 新规则
+      .test(/\.svg$/)
+      .include.add(path.join(__dirname, 'src/assets/svg-icons/heroicons')) // 新规则应用于我们存放svg的目录
+      .end()
+      .use('svg-sprite-loader') // 用sprite-loader接卸
+      .loader('svg-sprite-loader')
+      .options({
+        symbolId: 'icon-hero-[name]'
+      })
+      .end()
     // image exclude
     const imagesRule = config.module.rule('images')
     imagesRule

@@ -2,7 +2,7 @@
 .d2-scrollbar {
   height: 100%;
   .el-scrollbar__wrap {
-    overflow: auto;
+    overflow: scroll;
   }
 }
 </style>
