@@ -72,7 +72,7 @@ export default {
       {
         title: 'Notion',
         name: 'notion',
-        preview: 'image/theme/element/preview@2x.png'
+        preview: 'image/theme/notion/preview@2x.png'
       }
     ]
   },
