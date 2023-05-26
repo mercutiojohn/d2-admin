@@ -3,6 +3,7 @@ const VueFilenameInjector = require('@d2-projects/vue-filename-injector')
 const ThemeColorReplacer = require('webpack-theme-color-replacer')
 const forElementUI = require('webpack-theme-color-replacer/forElementUI')
 const { set, each, compact, map, keys } = require('lodash')
+const path = require('path')
 
 const resolve = dir => require('path').join(__dirname, dir)
 
