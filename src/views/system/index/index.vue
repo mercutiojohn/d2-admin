@@ -1,6 +1,6 @@
 <template>
   <d2-container class="page">
-    
+    <svg-icon iconClass="academic-cap-20-solid"/>
     <d2-page-cover>
       <d2-icon-svg class="logo" name="d2-admin"/>
       <template slot="footer">
@@ -23,11 +23,11 @@
     </d2-page-cover>
   </d2-container>
 </template>
-
 <script>
 import D2Badge from './components/d2-badge'
 import D2Help from './components/d2-help'
 import D2PageCover from './components/d2-page-cover'
+import '@/assets/svg-icons/heroicons/academic-cap-20-solid.svg'
 export default {
   components: {
     D2Badge,
