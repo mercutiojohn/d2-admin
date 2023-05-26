@@ -38,6 +38,11 @@ export default {
         preview: 'image/theme/d2/preview@2x.png'
       },
       {
+        title: 'Notion',
+        name: 'notion',
+        preview: 'image/theme/notion/preview@2x.png'
+      },
+      {
         title: 'Chester',
         name: 'chester',
         preview: 'image/theme/chester/preview@2x.png'
@@ -68,11 +73,6 @@ export default {
         title: 'Tomorrow Night Blue (vsCode)',
         name: 'tomorrow-night-blue',
         preview: 'image/theme/tomorrow-night-blue/preview@2x.png'
-      },
-      {
-        title: 'Notion',
-        name: 'notion',
-        preview: 'image/theme/notion/preview@2x.png'
       }
     ]
   },
